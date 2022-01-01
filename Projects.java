@@ -22,7 +22,7 @@ label11,label12,label13,label14,label15,label16,label17,label18,label19,label20
 ,label21,label22,label23,label24,label25,label26,label118,label119;
 
 //variables for JComboBox
-JComboBox jcb,box01,box02,box04,box05,box06,box07,box08,box1,box09;
+JComboBox box01,box02,box04,box05,box06,box07,box08,box1,box09;
 //variables for JTextField
 
 JTextField txt01,t02,t03,t04,t09,t009,t010,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12;
@@ -308,7 +308,7 @@ public void actionPerformed(ActionEvent e){     //override method of ActionListe
     cnic = t02.getText();
     department = (String) box01.getSelectedItem();
     batch = (String) box02.getSelectedItem();
-    father = txt2.getText();
+    father = t2.getText();
     p_contact1 = t4.getText();
     p_contact2 = t5.getText();
     f_occupation = t6.getText();
@@ -321,7 +321,7 @@ public void actionPerformed(ActionEvent e){     //override method of ActionListe
     bed = (String) box08.getSelectedItem();
     relation=t09.getText();
     emerCont=t010.getText();
-    rent=txt11.getText();
+    rent=t11.getText();
     pay_method = (String)box09.getSelectedItem();
     total_amt=t12.getText();
    
