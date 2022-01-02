@@ -104,45 +104,45 @@ Management(){        //constructor
     
     
     label3 = new JLabel("Contact Number");
-    label3.setBounds(10, 240, 120, 20);
+    label3.setBounds(10, 220, 120, 20);
     jf.add(label3);
     t1 = new JTextField();                             //create JTextField 
-    t1.setBounds(120, 240, 140, 20);
+    t1.setBounds(120, 220, 140, 20);
     t1.addActionListener(this);
     jf.add(t1);
     
     label33 = new JLabel("CNIC Number");
-    label33.setBounds(10, 270, 120, 20);
+    label33.setBounds(10, 250, 120, 20);
     jf.add(label33);
     t02 = new JTextField();                            //create JTextField 
-    t02.setBounds(120, 270, 140, 20);
+    t02.setBounds(120, 250, 140, 20);
     t02.addActionListener(this);
     jf.add(t02);
     
     label11 = new JLabel("PARENTS DETAILS");
-    label11.setBounds(10, 300, 250, 20);
+    label11.setBounds(10, 280, 250, 20);
     label11.setOpaque(true);
     label11.setBackground(Color.YELLOW);
     jf.add(label11);
     
     label5 = new JLabel("Father Name");
-    label5.setBounds(10,330,100, 20);
+    label5.setBounds(10,310,100, 20);
     jf.add(label5);
     t2 = new JTextField();
-    t2.setBounds(120, 370, 140, 20);
+    t2.setBounds(120, 310, 140, 20);
     t2.addActionListener(this);
     jf.add(t2);
     
     label7 = new JLabel("Parents Contact1");
-    label7.setBounds(10, 370, 100, 20);
+    label7.setBounds(10, 340, 100, 20);
     jf.add(label7);
     t4 = new JTextField();
-    t4.setBounds(120, 400, 140, 20);
+    t4.setBounds(120, 340, 140, 20);
     t4.addActionListener(this);
     jf.add(t4);
     
     label8 = new JLabel("Parents Contact2");
-    label8.setBounds(10, 400, 100, 20);
+    label8.setBounds(10, 370, 100, 20);
     jf.add(label8);
     t5 = new JTextField();
     t5.setBounds(120, 370, 140, 20);
@@ -150,28 +150,28 @@ Management(){        //constructor
     jf.add(t5);
     
     label9 = new JLabel("Father Occupaion");
-    label9.setBounds(10, 430, 100, 20);
+    label9.setBounds(10, 400, 100, 20);
     jf.add(label9);
     t6 = new JTextField();
-    t6.setBounds(120, 430, 140, 20);
+    t6.setBounds(120, 400, 140, 20);
     t6.addActionListener(this);
     jf.add(t6);
     
     label10 = new JLabel("City");
-    label10.setBounds(10, 460, 100, 20);
+    label10.setBounds(10, 430, 100, 20);
     jf.add(label10);
     String [] options2 = {"Karachi","Hyderabad","Faislabad","Islamabad","Lahore",
     "Quetta","Muree","Gawadar"};
     box01 = new JComboBox(options2);
-    box01.setBounds(120, 460, 140, 20);
+    box01.setBounds(120, 430, 140, 20);
     box01.addActionListener(this);
     jf.add(box01);
     
     label18 = new JLabel("Address");
-    label18.setBounds(10, 490, 100, 20);
+    label18.setBounds(10, 460, 100, 20);
     jf.add(label18);    
     t009 = new JTextField();
-    t009.setBounds(120, 490, 140, 20);
+    t009.setBounds(120, 460, 140, 20);
     t009.addActionListener(this);
     jf.add(t009);
     
