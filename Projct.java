@@ -435,11 +435,7 @@ void display(){                                           //override method of a
 public class Projct {
 public static void main(String[] args) {
 Management obj1 = new Management();   
-    /**
-     * @param args the command line arguments
-     */
-    //public static void main(String[] args) {
-        // TODO code application logic here
+    
     }
     
 }
