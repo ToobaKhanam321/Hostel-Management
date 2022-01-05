@@ -19,7 +19,7 @@ class Management extends Hostels implements ActionListener{    //it is our base 
 JFrame jf;  //declare variable of JFrame
 
 //variables for JComboBox
-JComboBox box01,box02,box04,box05,box06,box07,box08,box1,box09;
+JComboBox box01,box02,box04,box05,box06,box07,box08,box1,box09, box2;
 
 // variables for JLabel
 JLabel label1,label03,label2,label3,label101,label33,label4,label5,label6,label7,label8,label9,label10,
@@ -93,14 +93,16 @@ Management(){        //constructor
     box02.setBounds(120, 160, 140, 20);
     box02.addActionListener(this);
     jf.add(box02);
+
     
     label5 = new JLabel("Gender");
     label5.setBounds(10,190,100, 20);
     jf.add(label5);
-    t04 = new JTextField();
-    t04.setBounds(120, 190, 140, 20);
-    t04.addActionListener(this);
-    jf.add(t04);
+    String [] option4 = {"Male","Female","Other"};
+    box2 = new JComboBox(option4);
+    box2.setBounds(120, 190, 140, 20);
+    box2.addActionListener(this);
+    jf.add(box2) ;
     
     
     label3 = new JLabel("Contact Number");
@@ -311,7 +313,7 @@ public void actionPerformed(ActionEvent e){     //override method of ActionListe
     Registration = t03.getText();
     name= t01.getText();                      //to know what is written in text field
     classs=(String) box05.getSelectedItem();
-    gender=t04.getText();                     //to know what is written in text field
+    gender=(String) box2.getSelectedItem();
     cnic = t02.getText();
     department = (String) box01.getSelectedItem();
     batch = (String) box02.getSelectedItem();
